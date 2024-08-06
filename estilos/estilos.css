@@ -55,7 +55,8 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondo1.jpg');
+    background-image: url('');
+    background-color: #000;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -129,27 +130,45 @@ p {
 
 .card {
 
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
 
 
 
 }
 
+
+
+
 #cardEducacion {
 
     border: none;
+    border-color: none;
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('../img/fondoMallaH.png');
+    background-color: #003f6c;
     /*  background-size: cover; */
     background-position: center;
-
+   /*
+    background-size: cover;
+    */
     height: 400px;
 
 
 
 }
+
+#cardEducacion .card {
+
+    border: none;
+    border-color: none;
+
+
+
+}
+
+
 
 .conta {
 
@@ -267,6 +286,8 @@ footer {
     color: #ffffff;
     font-weight: bold;
     text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
 
 }
 
@@ -315,7 +336,11 @@ footer {
     padding-top: 0px;
     padding-right: 0%;
 
-    width: 100%;
+    width: 90%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    
 
 
 }
@@ -619,7 +644,7 @@ footer {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
 
     background-position: center;
 
@@ -672,8 +697,8 @@ footer {
 
     margin: 0;
     padding: 0;
-    background-color: #2104a0;
-
+    background-color: #003f6c;
+    background-image: url('../img/fondoMallaH.png');
     background-position: center;
     border: 5px solid #000000;
     border-radius: 10px;
@@ -742,7 +767,7 @@ footer {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
 
     background-position: center;
 
@@ -788,7 +813,8 @@ footer {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('../img/fondoMallaH.png');
+    background-color: #003f6c;
     /*  background-size: cover; */
     background-position: center;
 
@@ -836,18 +862,19 @@ footer {
     display: grid;
     padding: 30px;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-areas:
         "containerMi1 containerMi1"
         "containerMi2 containerMi3";
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('../img/fondoMallaH.png');
+    background-color: #003f6c;
     /*  background-size: cover;  */
     background-position: center;
 
-    height: 650px;
+    height: 600px;
 
 }
 
@@ -878,15 +905,17 @@ h5 {
 
 .footerF {
 
-    background-color: #2104a0;
+    background-color: #003f6c;
+    background-image: url('../img/fondoMallaH.png');
     border: 5px solid #000000;
     border-radius: 10px;
+    
 
 }
 
 .formGeneral {
 
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
     padding: 6%;
     border-radius: 5%;
     height: 360px;
@@ -1023,14 +1052,14 @@ h5 {
 
 .form-label {
 
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
 
 
 }
 
 .textMensaje {
 
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -1048,7 +1077,7 @@ h5 {
 
 #card1 {
 
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
 
     border-radius: 5%;
 
@@ -1094,20 +1123,20 @@ h5 {
 
 
 .btnCosasAmo {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     line-height: 150px;
     bottom: 120px;
     right: 120px;
     background-color: rgb(93, 92, 92);
     color: white;
-    border-radius: 150px;
+    border-radius: 50%;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;
 
-    margin-left: 25%;
+    margin-left: 35%;
 
 
 
@@ -1129,21 +1158,21 @@ h5 {
 
 
 .fotoSobreMi {
-    width: 50%;
+    width: 40%;
     height: 60%;
     margin-left: 25%;
     border-radius: 10px;
 
-    box-shadow: 10px 10px 15px #6b90d1;
+    box-shadow: 8px 8px 12px #6b90d1;
 
 }
 
 
 
 #fotoHab {
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
     align-content: center;
 }
 
@@ -1171,7 +1200,7 @@ h5 {
     justify-content: center;
     align-items: center;
 
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
 
     background-color: rgb(38, 37, 37);
 }
@@ -1186,7 +1215,7 @@ h5 {
 
     width: 150px;
     height: 150px;
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
     object-fit: cover;
 
 
@@ -1194,8 +1223,10 @@ h5 {
 
 #imgDiego {
 
-    width: 75%;
-    height: 75%;
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 70%;
+    height: 70%;
 
 }
 
@@ -1203,7 +1234,7 @@ h5 {
 
 .ptest {
     border-radius: 5%;
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
     padding: 3%;
 
 
@@ -1217,7 +1248,7 @@ h5 {
 
 .form-control {
     background-color: transparent;
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
 
 
 }
@@ -1329,7 +1360,7 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
     /*  background-size: cover; */
     background-position: center;
 
@@ -1343,7 +1374,7 @@ h5 {
 
     width: 50%;
     height: 60%;
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
     object-fit: cover;
 
     margin-left: 25%;
@@ -1400,7 +1431,7 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
     /* background-size: cover; */
     background-position: center;
 
@@ -1412,7 +1443,7 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
 
     background-position: center;
 
@@ -1425,7 +1456,8 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
+    
     /*  background-size: cover; */
     background-position: center;
 
@@ -1440,7 +1472,8 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('../img/fondoMallaH.png');
+    background-color: #003f6c;
     /*  background-size: cover; */
     background-position: center;
 
@@ -1453,9 +1486,10 @@ h5 {
 
     margin: 0;
     padding: 0;
-    background-image: url('../img/fondoMalla.png');
+    background-image: url('');
     /*  background-size: cover; */
     background-position: center;
+    text-align: center;
 
 }
 
@@ -1557,7 +1591,7 @@ h5 {
 #logo {
 
     border-radius: 50%;
-    border: 5px solid #6b90d1;
+    border: 3px solid #6b90d1;
     margin-left: 20px;
 }
 
@@ -1619,6 +1653,7 @@ h5 {
     padding: 10px;
     background-color: #000000;
     position: relative;
+  
 
 }
 
@@ -1812,6 +1847,16 @@ section {
 
 
 @media(max-width:767px) {
+
+
+
+    #cardEducacion{
+        height: 900px;
+
+    }
+
+   
+
     .containerContact1 {
         display: grid;
         padding: 30px;
@@ -1830,8 +1875,30 @@ section {
 }
 
 
+@media(max-width:480px) {
+
+    #cardEducacion{
+        height: 900px;
+
+    }
 
 
+    .containerContact1 {
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "colContact2";
+        margin-bottom: 1000px;
+
+    }
+
+    .containerContact {
+        margin-bottom: 100px;
+
+    }
+}
 
 
 
@@ -1872,6 +1939,9 @@ section {
         grid-template-columns: 1fr;
         grid-template-areas:
             "columna2";
+
+
+     
 
     }
 
@@ -1945,7 +2015,7 @@ section {
             "columna2"
             "columna1";
 
-        height: 800px;
+        height: 900px;
         text-align: center;
         align-content: center;
 
@@ -1997,7 +2067,7 @@ section {
         grid-template-areas:
             "col1"
             "col3";
-        height: 250px;
+        height: 220px;
 
 
 
@@ -2017,3 +2087,208 @@ section {
         margin-left: 0px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px) {
+    .containerContact1 {
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "colContact1";
+        margin-bottom: 1000px;
+
+    }
+
+    .containerContact {
+        margin-bottom: 100px;
+
+        height: 700px;
+      
+
+    }
+
+    .conta {
+        padding-bottom: 0px;
+
+    }
+
+
+
+
+    .containerStudio {
+
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "columna2";
+
+    }
+
+
+    .containerVisit {
+
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "colVisit1"
+            "colVisit2";
+
+    }
+
+    #oferta {
+
+        font-size: 17px;
+
+    }
+
+
+    .containerMi {
+
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "containerMi1"
+            "containerMi2"
+            "containerMi3";
+
+        height: 1500px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+    .containerFinal {
+
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "columna11"
+            "columna33"
+            "columna22";
+
+        height: 800px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+
+
+    .containerStudio {
+
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "columna2"
+            "columna1";
+
+        height: 950px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+    .educa {
+
+        display: grid;
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "educa1"
+            "educa2"
+            "educa3"
+            "educa4"
+            "educa5";
+
+        height: 800px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+
+    .cosasQueAmo {
+        height: 1700px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+    .fotoSobreMi {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    .containerLogo {
+
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+           
+            "col3";
+        height:130px;
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+
+
+.col1{
+display: none;
+
+    }
+
+
+    .containerTodo {
+
+        margin-top: 120px;
+
+
+    }
+
+    #imgLlegarFotoMi {
+
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
