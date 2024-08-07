@@ -26,14 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const botonDescargar = document.getElementById('boton-descargar');
+
+    /*
     const confirmacionDescarga = document.getElementById('confirmacion-descarga');
     const contadorDescargas = document.getElementById('contador');
+
+    */
     const cargador = document.getElementById('cargador');
 
-   
+   /*
     let conteoDescargas = localStorage.getItem('conteoDescargas') || 0;
     contadorDescargas.textContent = conteoDescargas;
-
+*/
     botonDescargar.addEventListener('click', () => {
        
         cargador.style.display = 'inline-block';
@@ -41,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
            
             cargador.style.display = 'none';
-
+           /*
             
             conteoDescargas++;
             localStorage.setItem('conteoDescargas', conteoDescargas);
@@ -50,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             confirmacionDescarga.style.display = 'block';
 
-         
+         */
             window.location.href = './documentos/X.pdf';
         }, 2000);
     });
