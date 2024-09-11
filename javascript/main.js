@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             confirmacionDescarga.style.display = 'block';
 
          */
-            window.location.href = './documentos/X.pdf';
+            window.location.href = './documentos/CV-DiegoFano.pdf';
         }, 2000);
     });
 });
