@@ -2021,6 +2021,11 @@ h8 {
 
 
 
+
+
+/*cookies, no solo lo sombreado, sino mas abajo esta tambien*/
+
+/*
 .superposicion {
     position: fixed;
     top: 0;
@@ -2068,6 +2073,8 @@ h8 {
 .notificacion-cookies button:hover {
     background-color: #107fc3;
 }
+
+*/
 
 
 button {
@@ -2180,6 +2187,9 @@ section {
 
 #botonMostrar {
     color: #ffffff;
+    background-color: #003f6c;
+    
+
 }
 
 
@@ -2202,6 +2212,9 @@ section {
 
     .carousel-control-prev{
         background-color: #000;
+        width: 10%;
+        border-radius: 20px 0 0 20px;
+
 
 }
 .carousel-control-prev:hover{
@@ -2211,6 +2224,11 @@ section {
 
     .carousel-control-next{
         background-color: #000;
+        width: 10%;
+        border-radius: 0 20px 20px 0; 
+        /*
+        border: 3px solid black;
+        */
 
 }
 
@@ -2218,6 +2236,36 @@ section {
     background-color: #4b689c;
 
 }
+
+
+
+
+/*
+.btn-primary{
+    background-color: #003f6c;
+
+}
+*/
+
+
+#button{
+    background-color: #003f6c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

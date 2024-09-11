@@ -1,5 +1,6 @@
 
 
+/*
 
 document.addEventListener('DOMContentLoaded', () => {
     const superposicion = document.getElementById('superposicion');
@@ -18,6 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+*/
 
 
 
